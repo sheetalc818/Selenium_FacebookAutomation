@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
+//import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseTest 
 {
@@ -15,8 +15,10 @@ public class BaseTest
 	{
 		
 		ChromeOptions options = new ChromeOptions();
-		WebDriverManager.chromedriver().setup();
+		//WebDriverManager.chromedriver().setup();
 		options.addArguments("--disable-notifications");
+		System.setProperty("webdriver.chrome.driver", "./Driver/chromedriver");
+		
 		driver=new ChromeDriver(options);
 		driver.manage().window().maximize();
 		driver.get("https://www.facebook.com/");

@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="55478" started-at="2020-06-16T11:30:35 IST" finished-at="2020-06-16T11:31:31 IST">
+  <suite name="Default suite" duration-ms="68919" started-at="2020-06-16T12:08:29 IST" finished-at="2020-06-16T12:09:38 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="55478" started-at="2020-06-16T11:30:35 IST" finished-at="2020-06-16T11:31:31 IST">
+    <test name="Default test" duration-ms="68919" started-at="2020-06-16T12:08:29 IST" finished-at="2020-06-16T12:09:38 IST">
       <class name="com.bridgelabz.facebook.test.TestFacebook">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bridgelabz.facebook.test.TestFacebook@3cef309d]" name="setUp" is-config="true" duration-ms="6217" started-at="2020-06-16T11:30:35 IST" finished-at="2020-06-16T11:30:41 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bridgelabz.facebook.test.TestFacebook@3cef309d]" name="setUp" is-config="true" duration-ms="15415" started-at="2020-06-16T12:08:29 IST" finished-at="2020-06-16T12:08:44 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testAutomatingFacebookLoginAndLogout()[pri:0, instance:com.bridgelabz.facebook.test.TestFacebook@3cef309d]" name="testAutomatingFacebookLoginAndLogout" duration-ms="49052" started-at="2020-06-16T11:30:41 IST" description="After loging to facebook, posting the story on a wall" finished-at="2020-06-16T11:31:30 IST">
+        <test-method status="PASS" signature="testAutomatingFacebookLoginAndLogout()[pri:0, instance:com.bridgelabz.facebook.test.TestFacebook@3cef309d]" name="testAutomatingFacebookLoginAndLogout" duration-ms="53255" started-at="2020-06-16T12:08:44 IST" description="After loging to facebook, posting the story on a wall" finished-at="2020-06-16T12:09:37 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAutomatingFacebookLoginAndLogout -->
-        <test-method status="PASS" signature="close()[pri:0, instance:com.bridgelabz.facebook.test.TestFacebook@3cef309d]" name="close" is-config="true" duration-ms="164" started-at="2020-06-16T11:31:30 IST" finished-at="2020-06-16T11:31:31 IST">
+        <test-method status="PASS" signature="close()[pri:0, instance:com.bridgelabz.facebook.test.TestFacebook@3cef309d]" name="close" is-config="true" duration-ms="192" started-at="2020-06-16T12:09:37 IST" finished-at="2020-06-16T12:09:38 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
