@@ -30,9 +30,9 @@ public class TestFacebook extends BaseTest {
 		login.facebookLoginPage();
 		Thread.sleep(3000);
 		dashboard.addingPost();
-		Thread.sleep(1000);
-		dashboard.logoutFromApplication();
-		Thread.sleep(1000);
+		Thread.sleep(2000);
+		//dashboard.logoutFromApplication();
+		//Thread.sleep(1000);
 	}
 	
 	@AfterTest

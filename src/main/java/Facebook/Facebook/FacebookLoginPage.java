@@ -25,8 +25,8 @@ public class FacebookLoginPage {
 
 	public void facebookLoginPage() throws InterruptedException, AWTException {
 
-		username.sendKeys("your facebook username");
-		password.sendKeys("your facebook password");
+		username.sendKeys("testingtestdatablz@gmail.com");
+		password.sendKeys("testing123");
 
 		loginBtn.click();
 		Thread.sleep(1000);
