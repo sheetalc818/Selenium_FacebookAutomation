@@ -16,7 +16,9 @@ public class BaseTest
 		
 		ChromeOptions options = new ChromeOptions();
 		//WebDriverManager.chromedriver().setup();
+		options.setExperimentalOption("useAutomationExtension", false);
 		options.addArguments("--disable-notifications");
+		//options.addArguments("--headless");
 		System.setProperty("webdriver.chrome.driver", "./Driver/chromedriver");
 		
 		driver=new ChromeDriver(options);
